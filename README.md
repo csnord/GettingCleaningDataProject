@@ -19,8 +19,16 @@ Uses descriptive activity names to name the activities in the data set
 Appropriately labels the data set with descriptive variable names. 
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+## Steps to use run_analysis.R
 
-# run_analysis.R
+Here are the steps to run run_analysis.R
+First, create a directory: GACD and set it as a working directory (ie setwd("C:\\dev\\rstudio\\data\\GACD"))
+Second, place the run_analysis.R file there and launch the program. The program will download & unzip the data file.
+
+The program will create a file at the end of the execution called: TidyData.txt
+This file can be used for your own calculations.
+
+## run_analysis.R
 This R script file will execute the five steps:
 - Merges the training and the test sets to create one data set.
 - Extracts only the measurements on the mean and standard deviation for each measurement. 
